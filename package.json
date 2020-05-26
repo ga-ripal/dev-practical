@@ -1,0 +1,28 @@
+{
+  "name": "engineer-ai",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "app.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga-ripal/Engineer-AI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ga-ripal/Engineer-AI/issues"
+  },
+  "homepage": "https://github.com/ga-ripal/Engineer-AI#readme"
+}
