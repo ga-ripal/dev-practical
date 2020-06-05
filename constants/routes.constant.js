@@ -2,132 +2,132 @@ const ROUTES = {
     USER: {
         CREATE_USER: {
             URL: '/users',
-            METHOD:'POST'
+            METHOD: 'POST'
         },
         UPDATE_USER: {
             URL: '/users/:id',
-            METHOD:'PUT'
+            METHOD: 'PUT'
 
         },
         GET_ALL_USER: {
             URL: '/users',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         GET_USER: {
             URL: '/users/:id',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         DELETE_USER: {
             URL: '/users/:id',
-            METHOD:'DELETE'
+            METHOD: 'DELETE'
 
         }
     },
     QUESTIONS: {
         CREATE_QUESTIONS: {
             URL: '/questions',
-            METHOD:'POST'
+            METHOD: 'POST'
         },
         UPDATE_QUESTIONS: {
             URL: '/questions/:id',
-            METHOD:'PUT'
+            METHOD: 'PUT'
 
         },
         GET_ALL_QUESTIONS: {
             URL: '/questions',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         GET_QUESTIONS: {
             URL: '/questions/:id',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         DELETE_QUESTIONS: {
             URL: '/questions/:id',
-            METHOD:'DELETE'
+            METHOD: 'DELETE'
 
         }
     },
     ANSWERS: {
         CREATE_ANSWERS: {
             URL: '/answers',
-            METHOD:'POST'
+            METHOD: 'POST'
         },
         UPDATE_ANSWERS: {
             URL: '/answers/:id',
-            METHOD:'PUT'
+            METHOD: 'PUT'
 
         },
         GET_ALL_ANSWERS: {
             URL: '/answers',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         GET_ANSWERS: {
             URL: '/answers/:id',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         DELETE_ANSWERS: {
             URL: '/answers/:id',
-            METHOD:'DELETE'
+            METHOD: 'DELETE'
 
         }
     },
-    TOPICS:{
+    TOPICS: {
         CREATE_TOPICS: {
             URL: '/topics',
-            METHOD:'POST'
+            METHOD: 'POST'
         },
         UPDATE_TOPICS: {
             URL: '/topics/:id',
-            METHOD:'PUT'
+            METHOD: 'PUT'
 
         },
         GET_ALL_TOPICS: {
             URL: '/topics',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         GET_TOPICS: {
             URL: '/topics/:id',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         DELETE_TOPICS: {
             URL: '/topics/:id',
-            METHOD:'DELETE'
+            METHOD: 'DELETE'
 
         }
     },
-    SPACES:{
+    SPACES: {
         CREATE_SPACES: {
             URL: '/spaces',
-            METHOD:'POST'
+            METHOD: 'POST'
         },
         UPDATE_SPACES: {
             URL: '/spaces/:id',
-            METHOD:'PUT'
+            METHOD: 'PUT'
 
         },
         GET_ALL_SPACES: {
             URL: '/spaces',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         GET_SPACES: {
             URL: '/spaces/:id',
-            METHOD:'GET'
+            METHOD: 'GET'
 
         },
         DELETE_SPACES: {
             URL: '/spaces/:id',
-            METHOD:'DELETE'
+            METHOD: 'DELETE'
 
-        } 
+        }
     }
 }
-module.exports = {ROUTES}
+module.exports = ROUTES

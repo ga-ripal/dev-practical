@@ -6,7 +6,7 @@ const userObj ={
     email:Joi.string().required()
 }
 
-
+ 
 module.exports={
     userObj
 }
